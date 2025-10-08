@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(33, 32, 32); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.heading{
+    text-align: center;
+    margin: 48px;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 600;   
+    color: antiquewhite;
+}
+.shack{
+    color: rgb(22, 171, 72);
+    border-bottom: 4px solid bisque;
+}
+.water{
+    color: rgb(39, 145, 251);
+    border-bottom: 4px solid rgb(218, 244, 113);
+}
+.gun{
+    color: rgb(239, 30, 30);
+    border-bottom: 4px solid rgb(203, 123, 230);
+}
+.app{
+    height: auto;
+    width: 800px;
+    background-color: rgb(43, 43, 44); 
+    border-radius: 15px;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.5);
+    padding-bottom: 48px;
+}
+.container h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+.option{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+}
+.snackimg , .gunimg , .waterimg{
+    background-color: rgb(110, 104, 104);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    border: 4px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    cursor: pointer;
+}
+.snackimg:hover{
+    background-color: rgb(44, 41, 37);
+    border: 4px solid rgb(166, 157, 145);
+
+} 
+.gunimg:hover{
+    background-color: rgb(44, 41, 37);
+    border: 4px solid rgb(166, 157, 145);
+
+} 
+.waterimg:hover{
+    background-color: rgb(44, 41, 37);
+    border: 4px solid rgb(166, 157, 145);
+}
+.snackimg{
+    margin-right: -40px;
+}
+.waterimg{
+    margin-left: -40px;
+}
+.DisplayComputerChoice{
+    display: block;
+    margin: 34px 20px 20px;
+    color: white;
+}
+.DisplayPlayerChoice{
+    display: block;
+    margin: 10px 20px 20px;
+    color: white;
+}
+.result{
+    display: block;
+}
+.DisplayChoicese{
+    display: none;
+    justify-content: space-between;
+    margin: 30px 20px 0 0px;
+}
+.DisplayScoreRecords{
+    display: flex;
+    color: rgb(233, 213, 187);
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(69, 67, 67);
+
+}
+.DisplayPlayerScores{
+    padding: 10px;
+    font-size: 40px;
+}
+.DisplayComputerScores{
+    padding: 10px;
+    font-size: 40px;
+}
+
+.DisplayScoreRecords div h3{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.DisplayResult{
+    display: none;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 60px;
+    color: antiquewhite;
+}
